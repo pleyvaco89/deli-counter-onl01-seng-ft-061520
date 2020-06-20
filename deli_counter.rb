@@ -7,7 +7,7 @@ def line(katz_deli)
         deli_line << "#{index}. #{name}"
     end
     puts "The line is currently: #{deli_line.join}"
-end
+
 
 def take_a_number(deli_line, new_customer)
   deli_line << new_customer
