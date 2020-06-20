@@ -6,15 +6,13 @@ else
   katz_deli.each.with_index(1) do |name, index|
     deli_line << "#{index}. #{name}"
     end
-  puts "The line is currently: #{deli_line.join" 
+  puts "The line is currently: #{deli_line.join}"
   end
 
 end
 
 def take_a_number(deli_line, new_customer)
-  # 2 arguments
   deli_line << new_customer
-    #puts to call the person's name and position
   puts "Welcome, #{new_customer}. You are number #{deli_line.length} in line."
 
 end
