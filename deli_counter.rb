@@ -5,9 +5,9 @@ def line(katz_deli)
     else
       katz_deli.each.with_index(1) do |name, index|
         deli_line << "#{index}. #{name}"
-end
+    end
     puts "The line is currently: #{deli_line.join}"
-end
+  end
 
 def take_a_number(deli_line, new_customer)
   deli_line << new_customer
@@ -19,4 +19,5 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be served!"
   else
       puts "Currently serving #{katz_deli.shift}."
+  end
 end
